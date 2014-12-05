@@ -3,3 +3,7 @@ module.exports.session = {
     resave: false,
     saveUninitialized: true
 };
+
+module.exports.cookieParser = {
+    secret: 'yog'
+};
